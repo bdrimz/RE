@@ -1,0 +1,53 @@
+<html lang="en ar">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport " content="width-device-weight;initial-scale=1.0">
+<title>Formulaire</title>
+</head>
+<body>
+    <main>
+        <section>
+<fieldset style="margin: auto;"> <legend> votre identité </legend>
+        <ol>
+            <li>Nom <input type="text" name="nom" placeholder="Nom et Prenom" required></li>
+            <li>Email <input type="Email" placeholder="exemple@domaine.com" required></li>
+            <li>Téléphone <input type="tel" placeholder="par ex:+33755000000"></li>
+        </ol>
+</fieldset>
+        </section>
+<fieldset> <legend> adresse de livraison</legend>
+    <ol>
+<li>Adresse <textarea cols="20" rows="10" required></textarea></li>
+<li>code postal <input type="number"></li>
+<li>pays <input type="text"></li>
+    </ol>
+</fieldset>
+        <section>
+<fieldset>
+    <legend>informations CB</legend>
+<ol>
+<li> <span><fieldset> 
+    <legend aria-required="true">Type de carte bancaire</legend>
+    <ol>
+        <li> <input type="radio" name="card" value="VISA">VISA</li>
+        <li> <input type="radio" name="card" value="AmEx">AmEx</li>
+        <li> <input type="radio" name="card" value="Mastercard">Mastercard</li>
+    </ol>
+</li>
+<li>N° de carte <input type="number"  required></li>
+<li>Code de securité <input type="number"required></li>
+<li>Nom du porteur <input type="text" placeholder="Même nom que sur la carte" required></li>
+</fieldset></li>
+</ol>
+</fieldset>
+        </section>
+    </main>
+<footer>
+<fieldset>
+    <form >
+    <button type="submit">j'achète !</button>
+</form>
+</fieldset>
+</footer>
+</body>
+</html>
